@@ -34,7 +34,7 @@ function Orders ({ onAddToFavorit, onAddtoCart}) {
                         <img src="img/favorite-smile.svg" alt="no favorite" />
                         <h3>You don't have oreders :( </h3>
                         <p>Add atleast one order.</p>
-                        <Link to = '/'><button  className={styles.greenBtn}>Go back<img src="img/arrow.svg" alt="arrow" /></button></Link>
+                        <Link to = {process.env.PUBLIC_URL + '/'} ><button  className={styles.greenBtn}>Go back<img src="img/arrow.svg" alt="arrow" /></button></Link>
                     </div>
         )}
         

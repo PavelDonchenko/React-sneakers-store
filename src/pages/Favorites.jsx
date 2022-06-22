@@ -28,7 +28,7 @@ function Favorites ({ onAddToFavorit, onAddtoCart}) {
                         <img src="img/favorite-smile.svg" alt="no favorite" />
                         <h3>Favorites are empty :( </h3>
                         <p>You have not added anything to the favorites.</p>
-                        <Link to = '/'><button  className={styles.greenBtn}>Go back <img src="img/arrow.svg" alt="arrow" /></button></Link>
+                        <Link to = {process.env.PUBLIC_URL + '/'} ><button  className={styles.greenBtn}>Go back <img src="img/arrow.svg" alt="arrow" /></button></Link>
                     </div>
         )}
         

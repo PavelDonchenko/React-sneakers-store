@@ -10,7 +10,7 @@ function Header(props) {
   const orderSum = cartItems.reduce((sum, obj) => Number(obj.price) + sum, 0);
   return (
     <header >
-      <div className="d-flex justify-between align-center p-40 mb-50">
+      <div className="d-flex justify-between align-center p-40">
         <Link to="/">
           <div className="d-flex align-center cu-p">
             <img src="img/logo.png" alt="logo" />
@@ -49,7 +49,7 @@ function Header(props) {
           </Link>
         </ul>
       </div>
-      <Slider />
+     
     </header>
   );
 }

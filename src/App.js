@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+
 import Drawer from "./components/Drawer";
 import axios from "axios";
 import { Route, Routes } from "react-router-dom";
@@ -124,10 +125,10 @@ function App() {
           />
         )}
         <Header onClickCart={() => setCartOpened(true)} />
-
+        
         <Routes>
           <Route
-            path="/"
+            path='/' 
             element={
               <Home
                 searchValue={searchValue}

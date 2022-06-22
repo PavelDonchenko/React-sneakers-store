@@ -2,7 +2,7 @@
   "name": "sneakers-store",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://paveldonchenko.github.io/React-SneakersStore",
+  "homepage": "https://paveldonchenko.github.io/React-sneakers-store",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",

@@ -75,12 +75,12 @@ function Drawer({ onRemove, onClickCloseCart, items = [] }) {
                 <li className="d-flex">
                   <span>Total: </span>
                   <div></div>
-                  <b>{orderSum}</b>
+                  <b>{orderSum}$</b>
                 </li>
                 <li className="d-flex">
                   <span>Tax 5%: </span>
                   <div></div>
-                  <b>{orderSum / 100 * 5}.</b>
+                  <b>{orderSum / 100 * 5}$</b>
                 </li>
               </ul>
               <button onClick={onClickOrder} className={styles.greenBtn}>
