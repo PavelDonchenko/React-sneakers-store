@@ -1,0 +1,18 @@
+footer {
+    background-color: rgba(238, 85, 20, 0.188);
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 0 0 20px 20px;
+}
+.footerItems {
+}
+.footerMadia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    li:not(:last-child) {
+       margin-right: 20px; 
+    }
+}

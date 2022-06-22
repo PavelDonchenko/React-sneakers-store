@@ -1,0 +1,155 @@
+.drawer {
+  position: absolute;
+  width: 420px;
+  height: 100%;
+  right: 0px;
+  background: #ffffff;
+  box-shadow: -10px 4px 24px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+
+  h2 {
+    margin: 0;
+  }
+  p {
+    margin: 0;
+  }
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+.removebtn {
+  opacity: 0.5;
+  transition: opacity 0.3s ease-in-out 0s;
+  cursor: pointer;
+  @media (any-hover: hover) {
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
+.cartitem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  border: 1px solid #f3f3f3;
+  border-radius: 20px;
+  overflow: hidden;
+  padding: 20px;
+}
+.cartTotalModels {
+  ul {
+    margin-bottom: 40px;
+  }
+  div {
+    flex: 1;
+    height: 1px;
+    border-bottom: 1px dashed #dfdfdf;
+    position: relative;
+    top: 14px;
+    margin: 0 7px;
+  }
+  .greenBtn {
+    position: relative;
+    &:hover {
+      img {
+        right: 25px;
+      }
+    }
+    img {
+      position: absolute;
+      top: 20px;
+      right: 30px;
+      transition: all 0.3s ease 0s;
+    }
+  }
+}
+.items {
+  flex: 1;
+  overflow: auto;
+  margin-bottom: 40px;
+}
+.greenBtn {
+  width: 100%;
+  height: 55px;
+  background: #9dd558;
+  border-radius: 18px;
+  border: none;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &:hover {
+    background: lighten($color: #9dd558, $amount: 5%);
+  }
+  &:active {
+    background: darken($color: #9dd558, $amount: 5%);
+  }
+}
+.cartEmpty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 300px;
+  align-self: center;
+  margin-top: 100px;
+  p {
+    display: block;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .greenBtn {
+    position: relative;
+    &:hover {
+      img {
+        left: 7%;
+      }
+    }
+    img {
+      position: absolute;
+      left: 10%;
+      transform: rotate(180deg);
+      transition: all 0.3s ease 0s;
+    }
+  }
+}
+.favotiteEmpty {
+  height: 100wh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  p{
+    max-width: 290px;
+  }
+  .greenBtn {
+    position: relative;
+    width: 245px;
+    margin-top: 50px;
+    &:hover {
+      img {
+        left: 7%;
+      }
+    }
+    img {
+      position: absolute;
+      left: 10%;
+      transform: rotate(180deg);
+      transition: all 0.3s ease 0s;
+    }
+  }
+
+}
