@@ -1,0 +1,29 @@
+[33mcommit 471092e735afeff335e9367e0e9d2b5903c5d260[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: PavelDonchenko <przmld033@gmail.com>
+Date:   Wed Jun 22 15:50:20 2022 +0300
+
+    end without adaptive
+
+[33mcommit 9069b1e0d186dd38ee1b1a420c019d81dba999d5[m
+Author: PavelDonchenko <przmld033@gmail.com>
+Date:   Wed Jun 22 15:38:33 2022 +0300
+
+    end without adaptive
+
+[33mcommit 9205e5a7ed1c4501b357e36a29f4f81a1c6a902e[m
+Author: PavelDonchenko <przmld033@gmail.com>
+Date:   Mon Jun 20 23:29:20 2022 +0300
+
+    make favorit and addcert
+
+[33mcommit 1f18042acdb3ecc26d1bc16ac7ced31565f7c60b[m
+Author: PavelDonchenko <przmld033@gmail.com>
+Date:   Tue Jun 14 00:33:23 2022 +0300
+
+    add components header drawer card
+
+[33mcommit 631477c48613f60e5f31533c0cc17084ab2a7d2e[m
+Author: PavelDonchenko <przmld033@gmail.com>
+Date:   Thu Jun 9 21:06:01 2022 +0300
+
+    Initialize project using Create React App
