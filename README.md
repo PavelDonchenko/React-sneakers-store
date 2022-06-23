@@ -5,5 +5,6 @@ This is my pet project. A simple shoe store on React. Features a shopping cart, 
 * React 18 with hooks(useState, useEffect, useContext)
 * React Router
 * react-slick slider
-* module-css
+* css-modules
 * backend - MockApi
+* react-content-loader
