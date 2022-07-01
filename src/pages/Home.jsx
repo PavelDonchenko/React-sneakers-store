@@ -12,6 +12,8 @@ function Home({
   cartItems,
   isLoading
 }) {
+
+  
     const renderItems = () => {
         const filtredItems = items.filter((item) =>
         item.title.toLowerCase().includes(searchValue.toLowerCase())

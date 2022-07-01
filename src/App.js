@@ -35,9 +35,9 @@ function App() {
 
         setIsLoading(false);
 
-        setCartItems(cartResponse.data);
-        setFavorit(favoriteResponse.data);
-        setItems(itemsResponce.data);
+        setCartItems(cartResponse.data); //saving cart items from backend
+        setFavorit(favoriteResponse.data); // saving favorits from backend
+        setItems(itemsResponce.data);  //saving all sneakers from backend
       } catch (error) {
         alert("Ошибка запроса");
         console.log(error);
@@ -125,10 +125,10 @@ function App() {
           />
         )}
         <Header onClickCart={() => setCartOpened(true)} />
-        
+
         <Routes>
           <Route
-            path='/' 
+            path='/'
             element={
               <Home
                 searchValue={searchValue}
@@ -156,7 +156,7 @@ function App() {
               <Orders
               />} />
         </Routes>
-        <Footer/>
+        <Footer />
       </div>
     </AppContext.Provider>
   );
