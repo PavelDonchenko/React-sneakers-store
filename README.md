@@ -8,3 +8,5 @@ This is my pet project. A simple shoe store on React. Features a shopping cart, 
 * css-modules
 * backend - MockApi
 * react-content-loader
+
+![Alt text](https://github.com/PavelDonchenko/React-sneakers-store/blob/gh-pages/img/React%20App.png)
